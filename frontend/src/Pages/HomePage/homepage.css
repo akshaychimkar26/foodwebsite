@@ -1,0 +1,784 @@
+/* Main Post-Image css */
+
+.main-post-container{
+    display: flex;
+}
+
+.main-post-wrapper{
+    margin: auto;
+}
+
+.main-img-wrapper{
+    margin: 2rem
+}
+
+.main-img-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 10;
+    rotate: 180deg;
+    left: 10;
+    width: 50%;
+    height: 40rem;
+    background: linear-gradient(to right, transparent, black);
+    z-index: 0; 
+}
+.main-img-wrapper img{
+    z-index: 2;
+    height: 40rem;
+    width: 80vw;
+    background: linear-gradient(to right,rgba(0,0,0,0.4),rgba(0,0,0,0));
+}
+
+.main-post-title-wrapper{
+    z-index: 0;
+    position: absolute;
+    top: 22rem;
+    left: 15%;
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-post-title-wrapper h1{
+    font-family: 'Maven Pro', sans-serif;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size:3rem ;
+    letter-spacing: 2px;
+}
+
+.main-post-title-wrapper a{
+    margin-top: 1rem;
+    text-decoration: none;
+    background-color: #f5ce35;
+    padding: 1.7rem;
+    color: #4c392f;
+    font-family: 'Maven Pro', sans-serif;
+    border-radius:5px ;
+    display: flex;
+    align-items: center;
+    height: 2rem;
+}
+
+/* Advertise Container */
+
+.below-main-ad-container{
+    background-color: #d9d9d9;
+    height: 10rem;  
+    width: 82%;
+    margin: auto;
+}
+
+.below-main-ad-container img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   
+}
+
+.ad img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.below-explore-ad-container{
+    background-color: #d9d9d9;
+    height: 10rem;  
+    width: 82%;
+    margin: auto;
+}
+.below-more-ideas-ad-container{
+   background-color: #d9d9d9;
+   height: 10rem;  
+   width: 82%;
+   margin: auto;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+
+
+}
+
+/* Comments Container */
+
+.comments-container{
+    width: 82%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.comments-section-title{
+   display: flex;
+   justify-content: space-between;
+}
+
+.comments-wrapper{
+   display: flex;
+   gap: 1rem;
+   justify-content: space-between;
+   height: 20rem;
+}
+
+.comments-card{
+   padding: 1rem;
+   display: flex;
+   flex-direction: column;
+   align-items: self-start;
+   justify-content: space-between;
+   width: 35%;
+   border: 1px solid rgb(225, 225, 225);
+}
+
+.user{
+   color: blue;
+   font-weight: 500;
+}
+
+.user-name{
+   height: 2rem;
+   height: 2.5rem;
+   display: flex;
+   gap: 1rem;
+   align-items: center;
+}
+.user-name img{
+   margin-top: 1rem;
+   width: 20%;
+}
+.comments-txt{
+   overflow: hidden;
+   margin-top: 2.5rem;
+   height: 60%;
+   display: flex;
+   align-items: flex-start;
+   font-size: 1rem;
+}
+.comment-time{
+   height: 20%;  display: flex;
+   align-items: flex-end;
+}
+
+/* Craving-container */
+
+.craving-container{
+    width: 82%;
+    margin: auto;
+}
+
+.craving-imgs-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+ .craving-imgs-wrapper img{
+    width: 100%;
+    border-radius: 5px;
+    
+ }
+
+ .craving-imgs{
+    width: 31.5%;
+ }
+
+ .craving-imgs-wrapper a{
+    text-decoration: none;
+ }
+
+ .craving-title-wrapper{
+    position: relative;
+    top: -7rem;
+    color: white;
+    padding: 0.4rem;
+ }
+
+ .craving-title-wrapper .collection{
+    font-size: 1.3rem;
+ }
+ .craving-title h2{
+    font-size: 1.8rem;
+    font-family: 'Maven Pro', sans-serif;
+    letter-spacing: 1px; 
+    font-weight: 500;
+ }
+ .craving-title{
+        font-size: 1.8rem;
+        font-family: 'Maven Pro', sans-serif;
+        letter-spacing: 1px; 
+        font-weight: 500;
+ }
+
+ /* Explore More */
+
+ .explore-more-container{
+    width: 82%;
+    margin: auto;
+    margin-bottom: 2rem;
+ }
+
+ .explore-more-img-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+ }
+
+ .explore-more-container h2{
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+    font-size: 2.1rem;
+ }
+
+ .explore-more-img-wrapper div{
+    width: 14%;
+    text-align: center;
+ }
+
+
+ .explore-more-img-wrapper div a{
+    text-decoration: none;
+ }
+ .explore-more-img-wrapper div img{
+    width: 100%;
+    border-radius: 50%
+ }
+
+ .explore-more-dishes{
+    color: rgb(65, 65, 65);
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+ }
+
+ /* Trending Now */
+
+ .trending-now-container{
+    width: 82%;
+    margin: auto;
+ }
+
+
+ .trending-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 100;
+    margin-bottom: 1.5rem;
+
+ }
+
+ .trending-title h2{
+   font-weight: 500;
+ }
+
+ .trending-title a{
+   text-decoration: none;
+   color: rgb(0, 0, 204);
+ }
+
+.trending-imgs-wrapper{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.trending-imgs{
+   width: 23%;
+   border: 2px solid rgb(239, 238, 238);
+   border-radius: 5px;
+}
+.trending-imgs a img{
+   width: 100%;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+
+}
+.trending-imgs a{
+text-decoration: none;
+}
+
+
+.trending-imgs a p{
+   font-size: 1.2rem;
+   font-family: 'Maven Pro', sans-serif;
+   letter-spacing: 1px;
+   color: black;
+   font-weight: 500;
+   padding: 0.8rem;
+
+}
+
+/* Don't Miss */
+
+.dont-miss-container{
+   width: 82%;
+   margin: auto;
+   margin-top: 2rem;
+   margin-bottom: 0;
+}
+
+.dont-miss-imgs-wrapper{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-top: 1rem;
+}
+
+.dont-miss-imgs-wrapper img{
+   width: 100%;
+   border-radius: 5px;
+}
+
+.dont-miss-imgs{
+   width: 31.5%;
+}
+
+.dont-miss-imgs-wrapper a{
+   text-decoration: none;
+}
+
+.dont-miss-title-wrapper{
+   position: relative;
+   top: -7rem;
+   color: white;
+   padding: 0.4rem;
+}
+
+.dont-miss-title-wrapper .collection{
+   font-size: 1.3rem;
+}
+.dont-miss-title h2{
+   font-size: 1.8rem;
+   font-family: 'Maven Pro', sans-serif;
+   letter-spacing: 1px; 
+   font-weight: 500;
+}
+.dont-miss-title{
+       font-size: 1.5rem;
+       font-family: 'Maven Pro', sans-serif;
+       letter-spacing: 1px; 
+       font-weight: 500;
+}
+
+/* More Ideas */
+.more-ideas-now-container{
+   width: 82%;
+   margin: auto;
+}
+
+
+.more-ideas-title{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   font-family: 'Maven Pro', sans-serif;
+   font-size: 1.4rem;
+   font-weight: 100;
+   margin-bottom: 1.5rem;
+
+}
+
+.more-ideas-title h2{
+  font-weight: 500;
+}
+
+.more-ideas-title a{
+  text-decoration: none;
+  color: rgb(0, 0, 204);
+}
+
+.more-ideas-imgs-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.more-ideas-imgs{
+  width: 23%;
+  border: 2px solid rgb(239, 238, 238);
+  border-radius: 5px;
+}
+.more-ideas-imgs a img{
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+
+}
+.more-ideas-imgs a{
+text-decoration: none;
+}
+.more-ideas-imgs a p{
+  font-size: 1.2rem;
+  font-family: 'Maven Pro', sans-serif;
+  letter-spacing: 1px;
+  color: black;
+  font-weight: 500;
+  padding: 0.8rem;
+
+}
+
+/* PEECHES */
+
+.peel-peaches-container{
+   display: flex;
+   flex-direction: row;
+   width: 82%;
+   margin: auto;
+}
+
+.peech-img-wrapper{
+   width: 65%;
+}
+.peech-img-wrapper img{
+   width: 100%;
+}
+.peech-desc-wrapper{
+   width: 35%;
+   display: flex;
+   flex-direction: column;
+   padding: 3rem;
+   gap: 2rem;
+   font-family: 'Maven Pro', sans-serif;
+   border: 1px solid rgb(233, 233, 233);
+   border-radius: 5px;
+}
+
+.peech-desc-wrapper h3{
+   font-size: 1.7rem;
+   font-weight: 500;
+   color: black;
+   /* letter-spacing: 1px; */
+}
+.peeling-desc{
+   font-size: 1.1rem;
+}
+
+.fav-container{
+   width: 84%;
+   margin: auto;
+   padding: 1rem;
+  
+}
+
+.fav-wrapper{
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+}
+
+.fav-title-wrapper{
+   /* width: 100%; */
+   display: flex;
+   justify-content: space-between;
+}
+.fav-title-wrapper h3{
+   font-size: 2rem;
+}
+.fav-title-wrapper p{
+   font-size: 1.3rem;
+}
+
+.fav-cards-wrapper{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: flex-start;
+   align-content: flex-start;
+}
+
+.fav-card{
+   border: 1px solid rgb(211, 211, 211);
+   width: 30%;
+   margin-bottom: 2rem;
+   height: 25rem;
+   overflow: hidden;
+   cursor: pointer;
+}
+
+.fav-card a{
+   color: black;
+}
+
+.fav-dish{
+   padding: 1rem;
+   font-size: 1.5rem;
+}
+
+.fav-img{
+   height: 80%;
+}
+.fav-img img{
+   width: 100%;
+   height: 100%;
+}
+
+
+@media only screen and (min-width:250px) and (max-width:840px) {
+
+   
+
+.main-img-wrapper{
+   position: relative;
+   margin: 0.5rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.main-img-wrapper img{
+      height: 100%;
+      width: 90%;
+      justify-self: center;
+      display: flex;
+   }
+   .main-img-wrapper::before{
+      display: none;
+   }
+
+  .main-post-title-wrapper{
+   position: relative;
+   top: 35%;
+   left: 0;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   align-items: flex-start;
+   width: 90%;
+   /* margin: auto; */
+  }
+
+  .main-post-title-wrapper h1{
+   font-size: 2.4rem;
+   color: black;
+   width: 100%;
+}
+
+
+  .main-post-title-wrapper a{
+   width: 11rem;
+  }
+
+.craving-container{
+   width: 90%;
+   margin-top: 5rem;
+}
+
+.craving-imgs-wrapper{
+   flex-direction: column;
+}
+
+.below-main-ad-container{width: 90%;}
+
+.craving-imgs-wrapper{
+   /* gap: 2rem; */
+   /* justify-content: space-between; */
+}
+
+.craving-imgs{
+   width: 100%;
+}
+
+.craving-imgs a img{
+   width: 100%;
+   height: 17rem;
+}
+
+.explore-more-container{
+   width: 90%;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   flex-wrap: wrap;
+}
+
+.explore-more-img-wrapper{
+   flex-wrap: wrap;
+   gap: 1rem;
+   overflow: hidden;
+}
+
+.explore-more-img-wrapper div{
+   width: 30%;
+}
+
+.explore-more-dishes{
+   font-size: 0.7rem;
+}
+
+.trending-now-container{
+   width: 90%;
+   scroll-behavior: smooth;
+}
+
+.trending-title{
+   position: relative;
+}
+
+.trending-imgs-wrapper{
+   overflow-x:scroll ;
+   overflow-y: hidden;
+}
+
+.trending-imgs{
+   /* width: 70vw; */
+   /* width: max-content; */
+}
+
+.trending-imgs a img{
+   height: 60%;
+}
+.trending-imgs a p{
+   height: 25%;
+   font-size: 0.8rem;
+}
+
+.dont-miss-container {
+   width: 90%;
+}
+
+.dont-miss-imgs-wrapper{
+   flex-direction: column;
+   align-items: center;
+}
+.dont-miss-imgs-wrapper img{
+   height: 20rem;
+}
+
+.dont-miss-imgs{
+   width: 100%;
+}
+
+.more-ideas-now-container{
+   width: 90%;
+}
+
+.more-ideas-imgs-wrapper{
+   flex-direction: column;
+   align-self: center;
+}
+.more-ideas-imgs a img{
+   height: 20rem;
+}
+.more-ideas-imgs{
+   width: 100%;
+}
+
+.peel-peaches-container{
+   flex-direction: column;
+   width: 90%;
+}
+
+.peech-img-wrapper{
+   width: 100%;
+}
+
+.peech-desc-wrapper{
+   width: 100%;
+}
+
+.peech-desc-wrapper p{
+   display: none;
+}
+
+
+.comments-container{
+   width: 90%;
+   gap: 1rem;
+}
+.comments-txt{
+   margin-top: 2rem;
+   margin-bottom: 1rem;
+}
+
+.comments-wrapper{
+   flex-direction: column;
+   height: 100%;
+}
+.comments-card{
+   width: 100%;
+   padding: 1rem;
+}
+.user-name{
+}
+.user-name img{
+   width: 3rem;
+   height: 3rem;
+}
+.fav-container{
+
+   overflow-x: scroll;
+}
+
+.fav-title-wrapper{
+   position: sticky;
+   top: 0rem;
+   left: 0rem;
+}
+.fav-cards-wrapper{
+   flex-wrap: nowrap;
+   width: max-content;
+   gap: 2rem;
+   
+}
+
+.below-explore-ad-container{
+   width: 90%;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+}
+.below-more-ideas-ad-container{
+   width: 90%;
+}
+}
+
+@media only screen and (min-width:200px) and (max-width:500px) {
+.main-post-title-wrapper h1{
+   font-size: 1.5rem;
+}
+
+.explore-more-container h2{
+   font-size: 1.4rem;
+}
+.trending-title h2{
+   font-size: 1.4rem;
+}
+
+.trending-title a{
+   font-size:1rem ;
+}
+
+.dont-miss-title h2{
+   font-size: 1.4rem;
+}
+
+.more-ideas-title h2{
+   font-size: 1.4rem;
+}
+
+.more-ideas-title a{
+   font-size: 1rem;
+}
+
+.peech-desc-wrapper{
+   padding: 1rem;
+}
+
+.fav-title-wrapper h3{
+   font-size:1.4rem;
+}
+.fav-title-wrapper a{
+   font-size:1rem;
+}
+}

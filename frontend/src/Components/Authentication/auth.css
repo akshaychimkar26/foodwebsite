@@ -1,0 +1,200 @@
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1); 
+    backdrop-filter: blur(5px); 
+    
+    z-index: 21;
+
+}
+
+.main-container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 30;  
+    width: 27rem;
+    height: 38rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    padding: 1.5rem;
+    overflow: scroll;
+}
+
+.close-btn-wrapper{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.close-btn-wrapper img{
+    width: 5%;
+    /* float: right; */
+    cursor: pointer;
+}
+
+.auth-form-container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    height: 66%;
+}
+.auth-form-container h2{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Maven Pro', sans-serif;
+    margin-bottom: 1rem;
+}
+
+.auth-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%;
+}
+
+.auth-form label{
+    font-family: 'Maven Pro', sans-serif;
+
+}
+.auth-form input{
+    height: 3rem;
+    background-color: rgb(236, 231, 231);
+    border: none;
+}
+
+.auth-form button{
+    background-color: rgba(236, 236, 0, 0.904);
+    font-family: 'Maven Pro', sans-serif;
+    height: 3rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.forgot-pass{
+    text-align: center;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: blue;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 1rem;
+}
+
+.err-msg{
+    /* border: 1px solid black; */
+    height: 1rem;
+    color: red;
+}
+
+.auth-socials-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin-top: 1rem;
+    margin: auto;
+    align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 25%;
+}
+
+.continue-txt{
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+}
+
+
+
+.icons-container-login{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.icons-container-login img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.bottom-section{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* Register */
+
+.register-desc-txt{
+    font-family: 'Maven Pro', sans-serif;
+    text-align: center;
+}
+
+.terms{
+    display: flex;
+    flex-direction:row;
+    gap: 1rem;
+    font-family: 'Maven Pro', sans-serif;
+
+}
+
+.register-container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 30;  
+    width: 27rem;
+    height: 38rem;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    padding: 1.5rem;
+    overflow: scroll;
+}
+.register-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* height: 80%; */
+}
+
+.register-form-container{
+    margin-top: 2rem    ;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    height: 30rem;
+}
+.register-form-container h2{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Maven Pro', sans-serif;
+
+}
+
+.terms p{
+    font-size: 0.9rem;
+}
